@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Odszyfrowanie";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Szyfr Cezara</h1>
+    <p>Prosta aplikacja webowa do szyfrowania i odszyfrowywania.</p>
+
+    <div>
+        <h2>Odszyfrowanie</h2>
+
+        <form method="post">
+            <p>Wprowadź zaszyfrowany tekst:</p>
+            <input type="text" name="tekst" />
+
+            <p>Wybierz klucz szyfrowania:</p>
+            <select name="klucz">
+                @for (int i = 1; i <= 34; i++)
+                {
+                    <option>@i</option>
+                }
+            </select>
+
+            <input type="submit" value="Odszyfruj" />
+        </form>
+
+        <p>Wynik odszyfrowania</p>
+        @if (ViewBag.ZaszyfrowanyTekst != null)
+        {
+            <p>Odszyfrowany tekst: @ViewBag.ZaszyfrowanyTekst</p>
+        }
+
+    </div>
+</div>

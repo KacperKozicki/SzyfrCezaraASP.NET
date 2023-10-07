@@ -1,0 +1,36 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.button {
+    background-color: #0d1117;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: #ffffff !important;
+}
+li a {
+    color: #ffffff!important;
+    text-align: center;
+    font-weight: bold;
+    text-decoration:none;
+}
+.non {
+    list-style: none;
+    margin-top: 30px
+}
