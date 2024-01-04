@@ -26,6 +26,9 @@ Po uruchomieniu projektu, przejdź pod adres `http://localhost:5000` w swojej pr
 ## Współpraca
 Współpraca przy projekcie SzyfrCezaraASP.NET jest mile widziana. Zachęcamy do forka repozytorium i przesyłania pull requestów.
 
+## Licencja
+Ten projekt jest dostępny na licencji [MIT License](LICENSE).
+
 ## Linki
 - [Dokumentacja ASP.NET](https://docs.microsoft.com/en-us/aspnet/)
 - [Szyfr Cezara](https://pl.wikipedia.org/wiki/Szyfr_Cezara)
